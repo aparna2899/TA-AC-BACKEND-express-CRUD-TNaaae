@@ -1,0 +1,213 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-50 {
+  flex: 0 1 50%;
+}
+h1 {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid crimson;
+  color: crimson;
+  margin: 2rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: crimson;
+  color: white;
+}
+form {
+  width: 30%;
+  border: 4px solid crimson;
+  margin: 4rem auto;
+}
+.form-control {
+  display: block;
+  width: 80%;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: crimson;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.users-list {
+  background-color: aliceblue;
+  border: 1px solid crimson;
+}
+.user-listbox {
+  padding: 1rem;
+  border: 1px solid crimson;
+}
+
+.users-list a {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.users-list a:hover {
+  color: crimson;
+}
+
+.back-btn {
+  position: absolute;
+  right: 0;
+  margin: 0 1rem;
+}
